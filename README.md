@@ -29,3 +29,7 @@ docker run \
   --volume jenkins-docker-certs:/certs/client:ro \
   myjenkins-blueocean:2.462.2-1
 ```
+
+Ir a la URL de Jenkins: <http://localhost:49000>. Esto pedirá una contraseña.
+Para obtener la contraseña, ver los logs: `docker logs jenkins-blueocean`.
+Finalmente, instalar los plugins recomendados.
